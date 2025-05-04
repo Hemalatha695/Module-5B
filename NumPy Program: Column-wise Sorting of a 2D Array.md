@@ -13,7 +13,33 @@ To write a **NumPy** program that sorts the elements in each column of a given 2
 
 ## 🧾 Program
 Add code here
+```
+import numpy as np  # Step 1: Import NumPy
+
+# Step 2: Get input for a 2D array
+# For example, you can manually input the array or accept user input
+# Here, we'll use a predefined array for simplicity
+
+array = np.array([[34, 23, 12],
+                  [1, 90, 32],
+                  [78, 54, 11]])
+
+# Step 3: Sort the array column-wise (ascending order)
+sorted_array = np.sort(array, axis=0)
+
+# Step 4: Display the original and sorted arrays
+print("Original Array:")
+print(array)
+
+print("\nColumn-wise Sorted Array:")
+print(sorted_array)
+```
 
 ## Output
-
+```
+[[ 1 23 11]
+ [34 54 12]
+ [78 90 32]]
+```
 ## Result
+The program successfully sorts the columns of the 2D NumPy array in ascending order.
