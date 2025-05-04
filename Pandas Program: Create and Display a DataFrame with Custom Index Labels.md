@@ -18,7 +18,40 @@ To create and display a **DataFrame** using the **Pandas** library in Python fro
 
 ## 💻 Program
 Add code here
+```
+# Step 1: Import libraries
+import pandas as pd
+import numpy as np
+
+# Step 2: Create dictionary with data
+exam_data = {
+    'name': ['Anastasia', 'Dima', 'Katherine', 'James', 'Emily'],
+    'score': [12.5, 9.0, 16.5, np.nan, 9.0],
+    'attempts': [1, 3, 2, 3, 2],
+    'qualify': ['yes', 'no', 'yes', 'no', 'no']
+}
+
+# Step 3: Create index labels
+labels = ['a', 'b', 'c', 'd', 'e']
+
+# Step 4: Create DataFrame
+df = pd.DataFrame(exam_data, index=labels)
+
+# Step 5: Display DataFrame
+print("DataFrame Output:")
+print(df)
+```
+
 
 ## Output
-
+```
+DataFrame Output:
+        name  score  attempts qualify
+a  Anastasia   12.5         1     yes
+b       Dima    9.0         3      no
+c  Katherine   16.5         2     yes
+d      James    NaN         3      no
+e      Emily    9.0         2      no
+```
 ## Result
+The program successfully creates and displays a Pandas DataFrame using the provided dictionary and applies the specified row index labels ('a' to 'e'). The score column demonstrates how NaN values are handled (for missing data like in James's case).
