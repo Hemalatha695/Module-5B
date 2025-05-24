@@ -40,19 +40,7 @@ print("\nUpdated Array After Replacing Second Column:")
 print(final_array)
 ```
 ## Output
-```
-Original Array:
-[[1 2 3]
- [4 5 6]
- [7 8 9]]
+![image](https://github.com/user-attachments/assets/7bba8d9b-c26b-444b-a879-d49b7aa2be0c)
 
-New Column to Insert:
-[100 200 300]
-
-Updated Array After Replacing Second Column:
-[[  1 100   3]
- [  4 200   6]
- [  7 300   9]]
-```
 ## Result
 The program successfully deletes the second column from the original 2D NumPy array and inserts a new column at the same index.
