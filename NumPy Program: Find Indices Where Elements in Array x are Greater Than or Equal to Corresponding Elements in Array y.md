@@ -28,8 +28,7 @@ indices = np.where(x >= y)[0]  # np.where returns a tuple, use [0] to extract in
 print("Indices where x >= y:", indices)
 ```
 ## Output
-```
-Indices where x >= y: [1 2 3 4]
-```
+![image](https://github.com/user-attachments/assets/58230290-5736-4ea8-bb25-3ff1bb4fe2dd)
+
 ## Result
 This program successfully identifies and prints the indices where the elements of x are greater than or equal to those in y
