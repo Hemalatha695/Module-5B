@@ -44,14 +44,7 @@ print(df)
 
 
 ## Output
-```
-DataFrame Output:
-        name  score  attempts qualify
-a  Anastasia   12.5         1     yes
-b       Dima    9.0         3      no
-c  Katherine   16.5         2     yes
-d      James    NaN         3      no
-e      Emily    9.0         2      no
-```
+![image](https://github.com/user-attachments/assets/35d40046-f20c-4318-ae10-1e870bb285e4)
+
 ## Result
 The program successfully creates and displays a Pandas DataFrame using the provided dictionary and applies the specified row index labels ('a' to 'e'). The score column demonstrates how NaN values are handled (for missing data like in James's case).
