@@ -36,10 +36,7 @@ print(sorted_array)
 ```
 
 ## Output
-```
-[[ 1 23 11]
- [34 54 12]
- [78 90 32]]
-```
+![image](https://github.com/user-attachments/assets/05e923b7-4675-4ea9-a212-9fe0e6af8e2f)
+
 ## Result
 The program successfully sorts the columns of the 2D NumPy array in ascending order.
