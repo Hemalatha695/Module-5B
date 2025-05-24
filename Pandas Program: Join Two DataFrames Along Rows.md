@@ -42,17 +42,7 @@ df2 = pd.DataFrame(student_data2)
 combined
 ```
 ## Output
-```
-Combined DataFrame:
-  student_id     name  marks
-0         S1    Alice     85
-1         S2      Bob     90
-2         S3  Charlie     95
-3         S4    David     80
-0         S5      Eva     75
-1         S6    Frank     88
-2         S7    Grace     92
-3         S8    Henry     79
-```
+![image](https://github.com/user-attachments/assets/e8418c92-4b50-4e80-a0d6-8d28afc669be)
+
 ## Result
 The program successfully joins two DataFrames row-wise using pd.concat() and assigns the result to a new DataFrame.
